@@ -21,17 +21,17 @@ The Supermarket Billing System is a simple Python-based console application that
 * datetime (for getting the current date and time)
 
 # Key Features & Functions
-1. Input Validation
+# Input Validation
 * Ensures the user inputs valid item names and quantities.
 
 * Handles edge cases, such as invalid or negative numbers for quantities.
 
-2. Flexible Item Selection
+# Flexible Item Selection
 * Displays available items with their prices and allows the user to select items to add to the cart.
 
 * Users can specify the quantity of each item.
 
-3. Receipt Generation
+# Receipt Generation
 1. After the user finishes selecting items, a detailed receipt is printed, showing:
 
 * Purchased items with their quantities and prices.
@@ -44,7 +44,7 @@ The Supermarket Billing System is a simple Python-based console application that
 
 2. The receipt also includes the customer's name and the current date and time.
 
-4. Error Handling
+# Error Handling
 * Provides clear error messages and asks for input again if the user enters invalid data (e.g., wrong item name or non-numeric input for quantity).
 
 
